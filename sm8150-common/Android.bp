@@ -134,16 +134,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "SoterService",
-	owner: "oneplus",
-	apk: "proprietary/app/SoterService/SoterService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-}
-
-android_app_import {
 	name: "WfdService",
 	owner: "oneplus",
 	apk: "proprietary/priv-app/WfdService/WfdService.apk",
